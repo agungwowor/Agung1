@@ -115,7 +115,7 @@ document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.
   kalimatc.innerHTML = "";kalimatc.style.display="none";
   opsL.style.opacity="0";
   new TypeIt("#kalimatd", {
-  strings: ["" + vketik4, "" + vketik5], startDelay: 100, Delay: 100000, speed: 40, deleteSpeed: 10, breakLines: false, waitUntilVisible: true, lifelike: true,
+  strings: ["" + vketik4, "" + vketik5], startDelay: 100, speed: 40, deleteSpeed: 10, breakLines: false, waitUntilVisible: true, lifelike: true,
   afterComplete: function(){
     opsL.style.opacity=".8";opsLcheck=4;opsLclick=1;
   },}).go();
