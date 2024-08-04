@@ -1,5 +1,5 @@
   jumlahKlik = 0;ftganti=0;fungsi=0;ftfungsi=0;fungsiAwal=0;fungsitimer=0;pesanwhatsapp = pesanWA.innerHTML;deffotostiker=fotostiker.src;Content.style = "opacity:1;margin-top:30vh;";wallpaper.style="opacity:0";
-  document.getElementById("loveIn").onclick = function() {if(fungsiAwal==0){audio.play();fungsiAwal=1;loveIn.style="transition:all .7s ease;opacity:0";wallpaper.style="transform: scale(1.5);";ket.style="opacity:0";/*kot.style="opacity:0";*/setTimeout(mulainama,500)}}
+  document.getElementById("loveIn").onclick = function() {if(fungsiAwal==0){audio.play();fungsiAwal=1;loveIn.style="transition:all .7s ease;opacity:0";wallpaper.style="transform: scale(1.5);";ket.style="opacity:0";kot.style="opacity:0";setTimeout(mulainama,500)}}
 
   function fungsibaru(btn) {
   var tombol = document.getElementById("" + btn);
@@ -38,7 +38,7 @@
   }
 
   async function mulainama() {
-           loveIn.style="display:none";ket.style="display:none";/*kot.style="display:none";*/
+           loveIn.style="display:none";ket.style="display:none";kot.style="display:none";
            Content.style = "opacity:1;margin-top:7vh";
            bodyblur.style="opacity:.7";
            wallpaper.style="transform: scale(1);";
